@@ -1,0 +1,10 @@
+---
+layout: page
+title: All Bands
+---
+
+<h2>Bands List</h2>
+
+{% for band in site.data.metal_bands_2017 %}
+  <p>{{band.band_name}}</p>
+{% endfor %}
